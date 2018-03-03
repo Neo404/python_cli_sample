@@ -25,8 +25,8 @@ def wonder_main(argv=sys.argv[1:]):
     print("What a wonder!")
     if len(argv) == 1:
         data = proofreading(argv)
-        print(data["inputSentence"])
-        print(data["checkedSentence"])
+        print("InputSentence: " + data["inputSentence"])
+        print("CheckSentence: "data["checkedSentence"])
 
 if __name__ == "__main__":
     wonder_main()
